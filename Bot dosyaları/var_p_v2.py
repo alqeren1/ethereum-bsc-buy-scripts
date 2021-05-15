@@ -1,8 +1,8 @@
 keys = {
     "infura_url": "https://mainnet.infura.io/v3/c2e059c17e7448ecb97fb442c4aa6bb6", #str
-    "my_account": "0xe875E87c1d6CADD061115163CeaDd4Ee1224f937", #str
-    "private_key": "679760d3db1a443b9d855f55dff32b33da3bfc14f39785d5503191368600a1a4", #str
-    "receiver_account": "0xe875E87c1d6CADD061115163CeaDd4Ee1224f937", #str
+    "my_account": "", #str
+    "private_key": "", #str
+    "receiver_account": "", #str
     "percentage_of_bnb": 0.1, #int
     "gas_limit": 320719, #int, normally should be set to 250000 or greater
     "gas_price": "10", #str determine gas price by going to ethgasstation.info
