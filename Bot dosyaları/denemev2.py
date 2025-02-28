@@ -6,11 +6,11 @@ import os
 import smtplib
 
 #yry = time.time()
-#web3 = Web3(Web3.HTTPProvider("https://boterino:alperenrap123@apis.ankr.com/9a36748e41854e0982d87686ee40913f/6dbf6151196c0031013a6be41b9f318c/binance/full/main"))
-web3 = Web3(Web3.HTTPProvider("https://bsc-dataseed.binance.org/"))
-#web3 = Web3(Web3.WebsocketProvider("wss://boterino:alperenrap123@apis.ankr.com/wss/9a36748e41854e0982d87686ee40913f/6dbf6151196c0031013a6be41b9f318c/binance/full/main"))
 
-print ("Çalışıyor...", web3.eth.getBalance("0xB075076c7A58c9FF84959783e9EB5896aA597a6c")/1000000000000000000)
+web3 = Web3(Web3.HTTPProvider("https://bsc-dataseed.binance.org/"))
+
+
+
 #mury = time.time()
 #print(mury-yry)
 address= Web3.toChecksumAddress("0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73")
@@ -178,9 +178,9 @@ def listen():
 
 
 def mail():
-    sender="pomcashcrypto@gmail.com"
+    sender=""
     rec="alqeren1@gmail.com"
-    password="umbrellacorp123"
+    password=""
     message="Token alindi 61"
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -190,9 +190,9 @@ def mail():
 
 
 def satmail():
-    sender="pomcashcrypto@gmail.com"
+    sender=""
     rec="alqeren1@gmail.com"
-    password="umbrellacorp123"
+    password=""
     message="Token satıldı 61"
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
