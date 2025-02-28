@@ -27,7 +27,7 @@ These scripts automate the process of buying tokens quickly on launch. They inte
 1. **Clone the Repository:**
 
   ```bash
-   git clone https://github.com/alqeren1/ethereum-bsc-token-buyer-scripts.git
+   git clone https://github.com/alqeren1/ethereum-bsc-buy-scripts.git
    ```
 
 2. **Install Dependencies:**
